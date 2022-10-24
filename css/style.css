@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    background: black;
+}
+.header{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuHead{
+    margin-left: -150px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.menuHead a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9099A3;
+}
+.btnHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13%;
+}
+.btnHead button{
+    font-weight: 900;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #1A5CFF;
+    box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+}
