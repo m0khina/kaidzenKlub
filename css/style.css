@@ -45,3 +45,22 @@ body{
     border: none;
     padding: 10px 20px;
 }
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    background: black;
+}
+.club{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    margin-left:17%;
+    margin-top:175%;
+}
