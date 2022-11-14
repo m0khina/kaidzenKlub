@@ -425,7 +425,14 @@ padding: 55px 0 0 350px;
 
 
 
+.proba h1{
+    color: white;
 
+}
+.proba h1::selection{
+    background: red;
+    color: yellow;
+}
 
 
 
